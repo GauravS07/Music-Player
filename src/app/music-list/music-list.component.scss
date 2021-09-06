@@ -1,0 +1,55 @@
+.search-container {
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #96c5fd;
+}
+
+
+.card-container {
+
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.mat-typography {
+    background-color: #000000;
+}
+
+.mat-toolbar {
+    background-color: #000000de;
+    span {
+        color: #ffffff;
+    }
+}
+
+.title {
+    display: block;
+    
+}
+
+.title h1 {
+    font-weight: normal;
+    font-size: 45px;
+    color: #111;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.title span {
+    font-weight: bold;
+}
+
+.img {
+    background-image: url(../../assets/music.jpg);
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
